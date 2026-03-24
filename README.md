@@ -8,3 +8,9 @@ Vite
 
 React
 - Industry standard front end developement library for JS
+
+# Setup project
+1. Install apache on server
+2. run `npm install`
+3. run `npm run build`
+4. Site is served at localhost/index.html
