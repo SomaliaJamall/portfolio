@@ -10,16 +10,18 @@
     "EDPT" 100,
     "EHLT" 12;
   font-size: 50px;
-      line-height: 60px;
+  line-height: 150px;
 }
 
 #center {
+  color: #fff;
   display: flex;
   flex-direction: column;
   gap: 25px;
   place-content: center;
   place-items: center;
   flex-grow: 1;
+  margin-bottom: 75px;
 
   @media (max-width: 1024px) {
     padding: 32px 20px 24px;
@@ -32,9 +34,10 @@
   border-top: 1px solid var(--border);
   text-align: left;
 
-  & > div {
+  &>div {
     flex: 1 1 0;
     padding: 32px;
+
     @media (max-width: 1024px) {
       padding: 24px 20px;
     }
@@ -52,6 +55,41 @@
   }
 }
 
+#footer{
+  border-top: 1px solid var(--border);
+}
+
+#resume {
+  display: flex;
+  border-top: 1px solid var(--border);
+  padding: 15px 0;
+  text-align: left;
+
+  &>div {
+    flex: 1 1 0;
+    padding: 32px;
+
+    @media (max-width: 1024px) {
+      padding: 24px 20px;
+    }
+  }
+}
+#education {
+  display: flex;
+  border-top: 1px solid var(--border);
+  padding: 15px 0;
+  text-align: left;
+
+  &>div {
+    flex: 1 1 0;
+    padding: 32px;
+
+    @media (max-width: 1024px) {
+      padding: 24px 20px;
+    }
+  }
+}
+
 #docs {
   border-right: 1px solid var(--border);
 
@@ -59,6 +97,10 @@
     border-right: none;
     border-bottom: 1px solid var(--border);
   }
+}
+
+#resume ul {
+  margin-top: 0;
 }
 
 #about-me ul {
@@ -87,6 +129,7 @@
     &:hover {
       box-shadow: var(--shadow);
     }
+
     .button-icon {
       height: 18px;
       width: 18px;
@@ -113,6 +156,7 @@
 #spacer {
   height: 88px;
   border-top: 1px solid var(--border);
+
   @media (max-width: 1024px) {
     height: 48px;
   }
@@ -134,22 +178,112 @@
     left: 0;
     border-left-color: var(--border);
   }
+
   &::after {
     right: 0;
     border-right-color: var(--border);
   }
 }
 
-.overline{
+.overline {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 80%;
   color: rgba(255, 255, 255, 0.753);
 }
 
-.sectionIcon{
+.sectionIcon {
   color: #FEDF44;
   margin-right: 8px;
   position: relative;
   top: 3px;
+}
+
+.font-awesome-icon {
+  font-size: 30px;
+}
+
+.bouncing-letters span {
+  display: inline-block;
+  /* Allows each span to be animated vertically */
+  animation: bounce 1s infinite ease-in-out;
+  /* Smooth start/end timing */
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+    /* Adjust height of bounce as needed */
+  }
+}
+
+/* Stagger the animation start for each letter */
+.bouncing-letters span:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.bouncing-letters span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bouncing-letters span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.bouncing-letters span:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.bouncing-letters span:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.bouncing-letters span:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+.bouncing-letters span:nth-child(7) {
+  animation-delay: 0.7s;
+}
+
+.bouncing-letters span:nth-child(8) {
+  animation-delay: 0.8s;
+}
+
+.bouncing-letters span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+.bouncing-letters span:nth-child(11) {
+  animation-delay: 1.0s;
+}
+
+.bouncing-letters span:nth-child(12) {
+  animation-delay: 1.1s;
+}
+
+.bouncing-letters span:nth-child(13) {
+  animation-delay: 1.2s;
+}
+
+.bouncing-letters span:nth-child(14) {
+  animation-delay: 1.3s;
+}
+
+.bouncing-letters span:nth-child(15) {
+  animation-delay: 1.4s;
+}
+
+.bouncing-letters span:nth-child(16) {
+  animation-delay: 1.5s;
+}
+
+.bouncing-letters span:nth-child(17) {
+  animation-delay: 1.6s;
 }
