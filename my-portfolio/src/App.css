@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.counter {
-  font-size: 16px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: var(--accent);
-  background: var(--accent-bg);
-  border: 2px solid transparent;
-  transition: border-color 0.3s;
-  margin-bottom: 24px;
-
-  &:hover {
-    border-color: var(--accent-border);
-  }
-  &:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
-}
-
 .hero {
   position: relative;
   font-family: "Nabla", system-ui;
@@ -29,7 +10,7 @@
     "EDPT" 100,
     "EHLT" 12;
   font-size: 50px;
-  color:chocolate;
+      line-height: 60px;
 }
 
 #center {
@@ -46,7 +27,7 @@
   }
 }
 
-#next-steps {
+#about-me {
   display: flex;
   border-top: 1px solid var(--border);
   text-align: left;
@@ -80,7 +61,7 @@
   }
 }
 
-#next-steps ul {
+#about-me ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -157,4 +138,18 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+.overline{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 80%;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+.sectionIcon{
+  color: #FEDF44;
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
 }

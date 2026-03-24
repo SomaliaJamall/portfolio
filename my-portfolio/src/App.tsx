@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './App.css'
 
 function App() {
@@ -13,91 +12,42 @@ function App() {
         </div>
         <div>
           <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+            Full stack developer - Focus in UX and Web
           </p>
         </div>
       </section>
 
-      {/* <div className="ticks"></div> */}
+      <div className="ticks"></div>
 
-      <section id="next-steps">
+      <section id="about-me">
         <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+          <h2>
+            <span className="material-symbols-outlined sectionIcon">
+              psychology_alt
+            </span>
+            Skills
+          </h2>
+          <p className="overline">Languages and Frameworks</p>
+          React, Angular, C++, Python, Typescript/ Javascript, PHP, PostGreSQL, MongoDB, MySQL/MariaDB, MSSQL, HTML, CSS, Javascript
+          <p className="overline">Software</p>
+          Visual Studio Code, NPM/Node.js, Figma, Windows Powershell, Linux Command Line, Azure DevOps, GIT, Docker, ISS, Apache, LAMP
+
+
         </div>
         <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
+          <h2>
+            <span className="material-symbols-outlined sectionIcon">
+              forward_to_inbox
+            </span>
+            Contact
+          </h2>
+          <p className="overline">Email</p>
+          SomaliaJamall@gmail.com
+          <p className="overline">Phone</p>
+          904-537-8670
+          <p className="overline">Socails</p>
+          <FontAwesomeIcon icon={faLinkedin} />
+          
         </div>
       </section>
 
