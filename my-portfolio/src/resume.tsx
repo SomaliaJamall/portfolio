@@ -23,7 +23,7 @@ export default function Resume({ }) {
                         <p>
                             <ul>
                                 <li>
-                                    Managed a team of developers in creating an application encompassing a frontend, REST API, and backend for a video transmission application, leading to the production of a market ready product.
+                                    Managed a team of developers in creating an application encompassing a frontend, REST API, and backend for video transmission, leading to the production of three market ready products.
                                 </li>
                                 <li>
                                     Wrote and maintained code using React, Node.js, Git, C++, and other tools producing a well documented and scalable code repository.
@@ -47,10 +47,10 @@ export default function Resume({ }) {
                                     Spearheaded the development of tools for staff and patrons using React, PHP, Python, SQL Server, and other languages/tools depending on the use case to produce web applications supporting the Jacksonville Public Library’s over 1 million patrons and over 500 staff in a way that prioritized scalability and usability, leading to an increase in staff and patron satisfaction.
                                 </li>
                                 <li>
-                                    Managed the product lifecycle including defining requirements by performing UX research and cost/benefit analysis.
+                                    Managed the product lifecycle including defining requirements by performing UX research, cost/benefit analysis, testing, and bug fixes.
                                 </li>
                                 <li>
-                                    Managed the CI/CD pipeline for library applications using Azure to ensure all code is well tested and production ready.
+                                    Managed the CI/CD pipeline for library applications using Azure
                                 </li>
                                 <li>
                                     Created and documented system processes to increase cross team transparency and collaboration.
@@ -72,13 +72,13 @@ export default function Resume({ }) {
                         <p>
                             <ul>
                                 <li>
-                                    Orchestrated research initiatives to untangle intricate business challenges across diverse teams, leading to a 20% increase in commission accuracy and a 30% reduction in shipment processing time.
+                                    Led research initiatives to untangle business challenges across teams
                                 </li>
                                 <li>
                                     Produced UI mocks and prototypes using Figma, expediting initial idea validation and ensuring seamless developer handoff.
                                 </li>
                                 <li>
-                                    Guided and mentored junior designers in the nuances of UX research techniques, fostering their skills, resulting in improvements in their ability to conduct insightful user interviews
+                                    Guided and mentored junior designers in the nuances of UX research techniques and software development, resulting in improvements in their ability to conduct insightful UX tests and create Figma mockups suitable for developer hand off.
                                 </li>
                             </ul>
                         </p>
@@ -99,7 +99,7 @@ export default function Resume({ }) {
                                     Utilized Angular to build components for an internal design system leading to faster design and development of new features.
                                 </li>
                                 <li>
-                                    Gathered feedback from  UX designers to create processes for design documentation and prototyping leading to better cohesion between projects.
+                                    Led a team of UX designers to create cross organization processes for design documentation and prototyping leading to better cohesion between teams.
                                 </li>
                                 <li>
                                     Collaborated with product managers and developers to perform low/high fidelity prototyping, and usability testing to support rapid idea validation.
@@ -121,7 +121,7 @@ export default function Resume({ }) {
                         <p>
                             <ul>
                                 <li>
-                                    Worked in React, Python, C++, JavaScript, HTML, and CSS to write full-stack code leading to an application that generated revenue for the company and later sold
+                                    Worked in React, Python, C++, JavaScript, HTML, and CSS to write full-stack code
                                 </li>
                                 <li>
                                     Managed the code repository using GIT to support developer collaboration and code maintainability.
