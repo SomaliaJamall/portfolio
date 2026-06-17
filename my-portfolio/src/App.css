@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 .hero {
   position: relative;
-  font-family: "Silkscreen", system-ui;
+  font-family: "Nabla", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -12,6 +12,13 @@
   font-size: 50px;
   line-height: 150px;
   color: #FEDF44
+}
+
+@media (max-width: 768px) {
+  .hero  {
+    font-size: 30px;
+    font-family: "Silkscreen", system-ui;
+  }
 }
 
 #center {
@@ -254,7 +261,6 @@
 }
 
 @keyframes bounce {
-
   0%,
   100% {
     transform: translateY(0);
@@ -264,6 +270,20 @@
     transform: translateY(-15px);
     /* Adjust height of bounce as needed */
   }
+}
+
+@media (max-width: 768px) {
+  @keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+    /* Adjust height of bounce as needed */
+  }
+}
 }
 
 /* Stagger the animation start for each letter */
