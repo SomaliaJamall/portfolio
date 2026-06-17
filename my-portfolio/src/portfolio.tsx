@@ -39,7 +39,7 @@ export default function Portfolio({ }) {
                     the success demonstrated in the usage of the Jacksonville Public Library.
                 </div>
                 <div className="subsection">
-                    <h3>My Process</h3>
+                    <h3>Process Highlights</h3>
                     <img src="asapProcessMap.png" className="portfolioImg" />
                     <div className="imageCaption">
                         <div className="subsection">
