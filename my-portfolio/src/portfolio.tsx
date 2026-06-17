@@ -66,7 +66,7 @@ export default function Portfolio({ }) {
                     <img src="asapCostBeniMatrix.png" className="portfolioImg" />
                     <div className="imageCaption">
                         <div className="subsection">
-                            <div className="overline">Technical Diagram</div>
+                            <div className="overline">Requirement weighting</div>
                             To plan and prioritize feature development, I work with stakeholders to create
                             a cost/benifit matrix. Those features that are easy to implement and high value get
                             worked on first.
